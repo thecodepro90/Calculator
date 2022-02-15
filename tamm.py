@@ -31,7 +31,7 @@ class Advancedmath(Math):
         print(f"Square root of {a} is {square_root}")
 
     def power(a,b):
-        return(pow(a,b))
+        print(f"{a}^{b} = {pow(a,b)}")
 
     def percent(a,b):
         print(f"{a} % of {b} is {a * b / 100}")
@@ -39,7 +39,7 @@ class Advancedmath(Math):
 
 
 class Trigonomitry: 
-    def pathagreantriple(a,b,c):
+    def pathagoreantriple(a,b,c):
         list1 = []
         list1.append(a)
         list1.append(b)
@@ -53,7 +53,7 @@ class Trigonomitry:
         else:
             print("False")
 
-    def pathagreanunkownvar(leg1,leg2,unknownside):
+    def pathagoreanunkownvar(leg1,leg2,unknownside):
         if unknownside == "a":
             side_b = leg1
             side_c = leg2

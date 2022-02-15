@@ -1,6 +1,10 @@
 from menu import *
 
 class Calculator:
-    def start():
+    def start():  
+        #file1 = open("notes.txt", "w")
         menu1()
+
+    
+    
    
