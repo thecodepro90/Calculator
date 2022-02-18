@@ -10,9 +10,15 @@ def gobacktomenu(a):
     elif a ==2:
         from menu import menu2
         menu2()
-    elif a ==2:
+    elif a ==3:
         from menu import menu3
         menu3()
+    else:
+        print("Syntax Error:'no such menu exists'")
+
+def spacing(a):
+    for i in range(0,a):
+        print()
 
 def menu3():
     print("{------------------ Page 3 --------------------}")
